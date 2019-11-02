@@ -72,3 +72,77 @@ Paso seguido debemos conectar via SFTP e ingresar el comando mostrado antes y ha
 Procedemos a conectarnos por el protocolo SSH para poder probar que nuestra aplicacion esta corriendo en el servidor EC2 por lo cual esto se vera asi:
 
 ![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/CON5.PNG)
+
+### Cree un AMI a partir de esta máquina.
+
+Para crear el AMI y su grupo de escalabilidad se debe realizar lo siguiente:
+
+Debemos iniciar yendo a la seccion de instances, en Launch templates y pulsamos en Create Launch templates:
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-1.PNG)
+
+Ponemos el respectivo nombre y seleccionamos la opcion de Search for AMI
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-2.PNG)
+
+Nos dirigira a la siguiente pestaña, donde seleccionamos la opcion marcada
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-3.PNG)
+
+Paso siguiente Seleccionamos lo que se muestra en la imagen
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-4.PNG)
+
+A continuacion vamos a crear una interfaz de red por lo que llenamos los campos tal como se muestra a continuacion
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-5.PNG)
+
+Y finalmente pulsamos en Create launch template
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-6.PNG)
+
+Nos aparecera mensaje de confirmacion para confirmar que la template se creo satisfactoriamente
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-7.PNG)
+
+A continuacion pulsamos en donde nos muestra para asignar y crear un grupo de autoescalabilidad
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-8.PNG)
+
+Debemos ir a la seccion de Crear grupo de Autoescaling y pulsar el boton que dice esto
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AE1.PNG)
+
+Nos direccionara a la siguiente parte y seleccionaremos en la opcion de configuracion de lanzamiento y damos en crear ua configuracion de lanzamiento nueva
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AE2.PNG)
+
+A continuacion seleccionamos la instancia de linux2 que muestra a continuacion
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AE3.PNG)
+
+Seleccionamos el t2.micro ya que no nos generara valor a menos que nuestra cuenta tenga mas de 12 meses de antiguedad
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AE4.PNG)
+
+Debemos llenar los campos que se encentran subrayados con la informacion requerida para poder seguir.
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AE5.PNG)
+
+Y seleccionamos siguiente hasta esta opcion en la que pulsamos el boton de crear configuracion de lanzamiento y seleccionamos una key que hallamos creado anteriormente
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AE6.PNG)
+
+Esto automaticamente nos direcciona a la creacion de un grupo de auto escalamiento y llenamos lo requerido y pulsamos en configurar politicas de escalado
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AE7.PNG)
+
+Y pulsamos siguiente hasta esta ventana en la que creamos el grupo de autoescalabilidad
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AE8.PNG)
+
+Nos saldra un aviso de creacion exitoso como el de a continuacion
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AE9.PNG)
+
+Y listo, tenemos nuestro AMI y grupos de autoescalabilidad configurados, por lo cual lo conectamos a la instancia EC2 ya creada.
