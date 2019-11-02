@@ -79,35 +79,35 @@ Para crear el AMI y su grupo de escalabilidad se debe realizar lo siguiente:
 
 Debemos iniciar yendo a la seccion de instances, en Launch templates y pulsamos en Create Launch templates:
 
-![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-1.PNG)
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/EC2-1.PNG)
 
 Ponemos el respectivo nombre y seleccionamos la opcion de Search for AMI
 
-![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-2.PNG)
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/EC2-2.PNG)
 
 Nos dirigira a la siguiente pestaña, donde seleccionamos la opcion marcada
 
-![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-3.PNG)
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/EC2-3.PNG)
 
 Paso siguiente Seleccionamos lo que se muestra en la imagen
 
-![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-4.PNG)
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/EC2-4.PNG)
 
 A continuacion vamos a crear una interfaz de red por lo que llenamos los campos tal como se muestra a continuacion
 
-![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-5.PNG)
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/EC2-5.PNG)
 
 Y finalmente pulsamos en Create launch template
 
-![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-6.PNG)
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/EC2-6.PNG)
 
 Nos aparecera mensaje de confirmacion para confirmar que la template se creo satisfactoriamente
 
-![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-7.PNG)
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/EC2-7.PNG)
 
 A continuacion pulsamos en donde nos muestra para asignar y crear un grupo de autoescalabilidad
 
-![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/AC2-8.PNG)
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/EC2-8.PNG)
 
 Debemos ir a la seccion de Crear grupo de Autoescaling y pulsar el boton que dice esto
 
