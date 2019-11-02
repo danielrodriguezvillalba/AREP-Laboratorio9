@@ -1,5 +1,8 @@
 # AREP-Laboratorio9
 
+## Autores:
+* Daniel Felipe Rodriguez Villalba
+
 ## Planteamiento de problema
 
 El problema definido para la escalabilidad de esta aplicación sera el ordenamiento de una cadena dada, este problema nos permitira observar que a mayor cantidad de datos que se ingresen este va a poder generar mas instancias del servidor para poder asi tratarlos a todos de manera eficiente.
@@ -10,7 +13,7 @@ La arquitectura presentada para la solucion es presentada en el siguiente diagra
 
 ![Imagenes](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/DiagramaDeDespliegue.PNG)
 
-Sin embargo el ordenamiento de este arreglo de datos dada se realizo con la implementacion del algoritmo burbuja, para poder realizarlo asi de manera eficiente el ordenamiento de el arreglo de numeros dado.
+Sin embargo el ordenamiento de este arreglo de datos dada se realizo con la implementacion del algoritmo burbuja, para poder realizarlo asi de esta manera y que sea menos eficiente el ordenamiento de el arreglo de numeros dados.
 
 ## Tutorial
 
