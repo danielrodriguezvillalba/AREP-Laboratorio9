@@ -48,3 +48,27 @@ Al pulsar el boton Launch, esto nos dirige a la siguiente ventana en la que si s
 Listo, nuestra maquina visrtual S2 esta creada y nos saldra este aviso informandonos que quedo bien hecha.
 
 ![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/EC7.PNG)
+
+### Depliegue la solución en AWS en EC2.
+
+Para el despliegue de nuestra solucion en nuestra maquina EC2 ya creada, primero que todo hay que estar en una maquina Linux, estando ahi debemos ejecutar desde un IDE nuestra aplicacion para que esta genere un .jar el cual vamos a subir a nuestra maquina, sin embargo esto lo explicaremos bien en los siguientes pasos.
+
+Ya que tenemos nuestra maquina EC2 corriendo procedemos a seleccionarla y pulsar el boton de connect, lo cual nos desplegara una ventana como la que aparece a continuacion.
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/CON1.PNG)
+
+Al realizar estos pasos debeos tener en cuenta que la llave debe estar ubicada sobre el mismo directorio en el que se encuentra nuestro .jar, asi.
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/CON2.PNG)
+
+Al momento de realizar los pasos que nos indicaron realizamos la conexion y esto debe aparecer en la terminal 
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/CON3.PNG)
+
+Paso seguido debemos conectar via SFTP e ingresar el comando mostrado antes y hacerle put a nuestro jar generado por lo cual se debe hacer de la siguiente forma y nos aparecera como se puede observar.
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/CON4.PNG)
+
+Procedemos a conectarnos por el protocolo SSH para poder probar que nuestra aplicacion esta corriendo en el servidor EC2 por lo cual esto se vera asi:
+
+![IMAGEN](https://github.com/danielrodriguezvillalba/AREP-Laboratorio9/blob/master/imagenes/CON5.PNG)
